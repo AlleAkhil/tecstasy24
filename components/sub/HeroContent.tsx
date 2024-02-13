@@ -34,7 +34,7 @@ const HeroContent = () => {
         >
           <span>Welcome to </span>
           <span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               SUDHEE TECSTASY{" "}
             </span>
@@ -43,7 +43,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-emerald-400 text-sm md:text-base lg:text-lg"
+          className="text-transparent bg-clip-text bg-gradient-to-r text-gray-400 text-sm md:text-base lg:text-lg"
         >
           Welcome to Sudhee-Tecstasy, where innovation meets celebration! Join us on a journey of technological marvels, creative brilliance, and unforgettable moments as we fuse knowledge and excitement in this grand celebration of our college fest.
         </motion.p>
@@ -60,7 +60,7 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center lg:max-w-[50%] lg:h-auto mt-6 md:mt-0"
       >
         <Image
-          src="/main1.jpg"
+          src="/mainIconsdark.svg"
           alt="work icons"
           height={650}
           width={650}
