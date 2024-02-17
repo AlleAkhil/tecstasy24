@@ -30,7 +30,7 @@ const Navbar = () => {
                TECSTASY
             </a>
             <a href="#skills" className="cursor-pointer">
-              Skills
+              Posters
             </a>
             <a href="#projects" className="cursor-pointer">
             Events

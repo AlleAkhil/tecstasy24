@@ -20,7 +20,7 @@ const Footer = () => {
                     <div className="font-bold text-[16px]">Community</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
+                        <a href="https://www.youtube.com/channel/UCUBdB1aKEriNU88DicUS-8A" target="blank"><span className="text-[15px] ml-[6px]">Youtube</span></a>   
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
@@ -34,8 +34,8 @@ const Footer = () => {
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
+                        <RxInstagramLogo/>
+                        <a href="https://www.instagram.com/tecstasy2k24?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank"><span className="text-[15px] ml-[6px]">Instagram</span></a>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
@@ -58,13 +58,13 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">tecstasy24@cbit.ac.in</span>    
                     </p>
                 </div>
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
+                &copy; IT - Tecstasy24. All rights reserved
             </div>
         </div>
     </div>

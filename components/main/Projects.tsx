@@ -12,22 +12,22 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mt-8 mb-8">
         <ProjectCard
-          src="/NextWebsite.png"
+          src="/html.png"
           title="Technical Paper Presentation"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
-          src="/CardImage.png"
+          src="/css.png"
           title="Technical Debate"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="/js.png"
           title="Technical Quiz"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         </div>
-        <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mt-8 mb-8">
+        {/* <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mt-8 mb-8">
         <ProjectCard
           src="/NextWebsite.png"
           title="Tech Virus"
@@ -96,7 +96,8 @@ const Projects = () => {
           title="Idea Presentation "
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
-      </div>
+      </div> */}
+      <div><button>Register</button></div>
       
     </div>
   );

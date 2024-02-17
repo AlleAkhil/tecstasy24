@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-2 h-4 w-4" />
           <h1 className="Welcome-text text-xs lg:text-base">
-            SUDHEE TECSTASY
+            TECSTASY 2K24
           </h1>
         </motion.div>
 
@@ -36,7 +36,7 @@ const HeroContent = () => {
           <span>
             <span className="text-transparent bg-clip-text text-6xl bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              SUDHEE TECSTASY{" "}
+              TECSTASY 2K24{" "}
             </span>
           </span>
         </motion.div>
