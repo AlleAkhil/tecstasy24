@@ -1,5 +1,11 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
+import { motion } from "framer-motion";
+import {
+  slideInFromLeft,
+  slideInFromRight,
+  slideInFromTop,
+} from "@/utils/motion";
 
 const Projects = () => {
   return (
@@ -91,7 +97,9 @@ const Projects = () => {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
       </div> */}
-      <div><button>Register</button></div>
+      <div className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[250px] md:max-w-[250px] lg:max-w-[350px] px-10 py-5 flex flex-col gap-3 md:gap-4 lg:gap-6 mt-3 md:mt-4 lg:mt-6 text-3xl md:text-4xl lg:text-4xl w-full">
+        <a href="https://docs.google.com/forms/d/19cwa9agcvVLzcRHNlB_KSHytu9D-pI5GPKkm2xWSeeI/viewform?edit_requested=true"><button>Register Now</button></a>
+      </div>
       
     </div>
   );

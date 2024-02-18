@@ -1,4 +1,3 @@
-import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
@@ -30,7 +29,7 @@ const Navbar = () => {
                TECSTASY
             </a>
             <a href="#skills" className="cursor-pointer">
-              Posters
+              Clubs
             </a>
             <a href="#projects" className="cursor-pointer">
             Events
