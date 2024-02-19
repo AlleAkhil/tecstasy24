@@ -43,4 +43,12 @@ export const Skill_data = [
     },
   ];
   
+  export const cord = [
+    {
+      skill_name: "Tailwind Css",
+      Image: "/4.webp",
+      width: 250,
+      height: 250,
+    }
+  ]
   

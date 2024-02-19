@@ -64,7 +64,7 @@ const HeroContent = () => {
           alt="work icons"
           height={650}
           width={650}
-          className="lg:max-w-[80%] xl:max-w-[70%] 2xl:max-w-[60%]"
+          className="lg:max-w-[80%] xl:max-w-[70%] 2xl:max-w-[60%] transform scale-150"
         />
       </motion.div>
     </motion.div>

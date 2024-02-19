@@ -29,10 +29,13 @@ const Navbar = () => {
                TECSTASY
             </a>
             <a href="#skills" className="cursor-pointer">
-              Clubs
+              CLUBS
+            </a>
+            <a href="#coords" className="cursor-pointer">
+              COORDS
             </a>
             <a href="#projects" className="cursor-pointer">
-            Events
+            EVENTS
             </a>
           </div>
         </div>
