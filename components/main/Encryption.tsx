@@ -11,7 +11,6 @@ const Encryption = () => {
     { name: "Dr S.Rakesh", phoneNumber: "+91 9951397356", imageSrc: "/2.jpg" },
     { name: "Akhil Alle", phoneNumber: "+91 6302459159", imageSrc: "/3.jpg" },
     { name: "S Pavan", phoneNumber: "+91 9133453099", imageSrc: "/5.jpg" },
-    { name: "Dhekshagna", phoneNumber: "+91 7989626405", imageSrc: "" },
     { name: "M Sai Prasad", phoneNumber: "+91 6303138084", imageSrc: "/4.jpg" }
   ];
 

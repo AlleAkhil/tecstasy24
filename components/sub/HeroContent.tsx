@@ -47,7 +47,7 @@ const HeroContent = () => {
         >
           Welcome to Sudhee-Tecstasy, where innovation meets celebration! Join us on a journey of technological marvels, creative brilliance, and unforgettable moments as we fuse knowledge and excitement in this grand celebration of our college fest.
         </motion.p>
-        <motion.a
+        <motion.a href="#projects"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] md:max-w-[250px] lg:max-w-[300px] mt-6 md:mt-8 lg:mt-10"
         >
